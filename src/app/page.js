@@ -6,7 +6,7 @@ import heroImage from './images/hero-image.png'
 export default function Home() {
   return (
     <div className="relative bg-[#6B48FF] bg-[url('images/Background-pattern.png')] w-full overflow-hidden mix-blend-multiply bg-no-repeat bg-center bg-clip-border bg-cover lg:h-[759px] 2xl:h-[919px]"> 
-      <div className="max-w-7xl mx-auto px-4 lg:max-w-5xl">
+      <div className="max-w-7xl mx-auto px-4 lg:max-w-7xl">
         <div className="flex justify-between items-center py-8 mb-20">
           <Image src={logo} alt="logo" className="w-20"/>
           <div className="flex items-center justify-center space-x-10">
@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         {/* hero */}
         <div className="grid grid-cols-2 relative">
-          <div className="w-full col-span-1 pt-20 lg:pt-5 xl:pt-20">
+          <div className="w-full col-span-1 pt-5 lg:pt-5 xl:pt-10">
             <div className="flex flex-col justify-center space-y-8">
               <div>
                 <h1 className="bg-white text-sm font-medium py-1 px-4 rounded-full text-center max-w-[25rem]">Transforming Healthcare Management for Excellence</h1>
